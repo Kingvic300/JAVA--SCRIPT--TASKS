@@ -4,6 +4,7 @@ function filterScores(array){
     });
     return result;
 }
+<<<<<<< HEAD
 function squareEachScores(numbers){
     let result = numbers.map(number=>{
         return number * number;
@@ -37,12 +38,15 @@ function student(grade){
     });
     return result;
 }
+=======
+>>>>>>> 657954af9b351d76cb7f3c0ed338ae0d81eb1c29
 function increaseScores(grades){
     let result = grades.map((number)=>{
         return number + 5;
     })
     return result;
 }
+<<<<<<< HEAD
 function discounted(prices){
     let result = [];
     let newPrice = [];
@@ -56,3 +60,12 @@ function discounted(prices){
     };
 }
 module.exports = {filterScores,increaseScores,squareEachScores,distribute,student, discounted}
+=======
+function squareEachScores(numbers){
+    let result = numbers.map(number=>{
+        return number * number;
+    })
+    return result;
+}
+module.exports = {filterScores,increaseScores,squareEachScores}
+>>>>>>> 657954af9b351d76cb7f3c0ed338ae0d81eb1c29

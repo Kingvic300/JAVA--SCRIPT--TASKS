@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "javascript-tasks",
+  "version": "1.0.0",
+  "description": "\"# JAVASRIPT-TASKS\"",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
